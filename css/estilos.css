@@ -1,0 +1,320 @@
+
+.header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    height: inherit;
+}
+
+ol,
+ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+figure{
+    margin: 0% ;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+ 
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: 333;
+    font-family:'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 1;
+}
+
+h2 strong {
+    color: #ff355a;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: 'PT Sans', sans-serif;
+    /*font-weight: normal;*/
+}
+
+.hero {
+    /*height: 500px;*/
+    /*background-image: url('../imagenes/hero.jpg');*/
+    background-color: #000;
+    /*background-repeat: no-repeat;*/
+    /*background-size: 1366px 768px;*/
+    /*background-position-x: right;*/
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.hero-tittle {
+    height: 300px;
+    width: 550px;
+    font-size: 70px;
+    line-height: 1;
+    letter-spacing: -.2; 
+    color: white;
+}
+
+.rent {
+    background: #fafafa;
+    padding: 20px;
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0;
+    margin-bottom: 40px;
+    
+}
+
+.rent-tittle {
+    /*margin: 10px;*/
+    font-weight: normal;
+    line-height: 1;
+    font-size: 20px;
+    /*font-weight: bold;*/
+}
+
+.rent-description {
+    margin: 40px 10px;
+}
+
+.rent-details {
+    width: 500px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+}
+
+.rent-details a {
+    color: #ff355a;
+}
+
+.rent-url {
+    margin: 20px 10px;
+    border: 1px solid;
+    color: #ff355a;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.ahorra-list {
+    justify-content: space-between;
+    margin: 50px;
+    display: flex;
+    height: 380px;
+    
+}
+
+.ahorra {
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f4fbff;
+
+}
+ 
+.ahorra-izquierdo {
+    font-family:'Source Sans Pro', sans-serif ;
+}
+
+.ahorra-title {
+    margin-left: 10px;
+    font-size: 50px;
+    line-height: 45px;
+    color: #ff355a;
+}
+
+.ahorra-description {
+    /*flex-direction: column;*/
+    margin: 50px 0px;
+    justify-content: flex-start;
+    align-self: center;
+    font-size: 30px;
+
+}
+.ahorra-detail {
+    margin: -40px 50px;
+    /*/margin-top: -20;/*/ 
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.ahorra-information {
+    text-align: left;
+    margin-top: 0;
+
+}
+
+.ahorra img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ahorra-url {
+    border: 1px solid;
+    color: #ff355a;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    margin: 5px;
+    flex-shrink: 0;
+}
+
+.contact {
+    background-color: #007a87;
+    color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+
+.social-link.twitter {
+    background-image: url('../imagenes/twitter.svg');
+}
+
+.social-link.facebook {
+    background-image: url('../imagenes/facebook.svg');
+}
+
+.social-link.github {
+    background-image: url('../imagenes/github.svg');
+}
+
+.social-link.instagram {
+    background-image: url('../imagenes/instagram.svg');
+}
+
+.form-email input {
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 20px 5px 25px;
+    background-image: url('../imagenes/envelope.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.contact-url {
+    display: block;
+    padding: 10px 0px;
+    width: 40px;
+    border: 1px solid;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.form-email button {
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 10px 0px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.form-email h3 {
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.container {
+    /*border: 1px solid red;*/
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+}
+
+.footer {
+    height: 100px;
+    color: white;
+    background-color: #1b2127;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
