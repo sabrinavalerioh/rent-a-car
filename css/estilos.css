@@ -1,4 +1,7 @@
-
+.logo {
+    justify-content: flex-start;
+    align-content: flex-start;
+}
 .header {
     background-color: #1b2127;
     color: white;
